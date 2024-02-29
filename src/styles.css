@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "IBM Plex Mono", serif;
+  background: #ffffff;
+}
+
+h1 {
+  margin-bottom: 10px;
+  text-shadow: 1px 0px 5px rgb(3, 204, 255);
+}
+
+.card {
+  width: 500px;
+  margin: 80px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 1px rgb(8, 82, 255), 0px 0px 10px -1px rgba(6, 244, 44, 0.8),
+    0px 0px 10px 10px rgba(195, 255, 0, 0.745);
+}
+
+.card::after {
+  content: "";
+  display: block;
+}
+
+.avatar {
+  width: 200px;
+  margin: auto;
+  display: block;
+  border-radius: 90px 360px 90px 360px;
+  box-shadow: rgba(6, 24, 44, 0.6) 0px 0px 10px 1px, rgba(6, 24, 44, 0.65) 0px 0px 11px -1px,
+    rgba(6, 218, 255, 0.643) 0px 0px 11px 0px;
+}
+
+.data {
+  padding: 32px;
+  padding-top: 24px;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0px 0px 10px black;
+}
